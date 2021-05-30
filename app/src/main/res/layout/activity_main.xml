@@ -57,7 +57,9 @@
         android:layout_marginBottom="576dp"
         android:background="@drawable/ic_home"
         android:onClick="home"
-        app:backgroundTint="?attr/text_color" />
+        app:backgroundTint="?attr/text_color" 
+        android:backgroundTint="#28AB68"
+        app:backgroundTint="#28AB68"/>
 
     <Button
         android:id="@+id/mapbutton"
@@ -71,7 +73,9 @@
         android:layout_marginBottom="573dp"
         android:background="@drawable/ic_map"
         android:onClick="map"
-        app:backgroundTint="?attr/text_color" />
+        app:backgroundTint="?attr/text_color"
+        android:backgroundTint="#28AB68"
+        app:backgroundTint="#28AB68"/>
 
     <FrameLayout
         android:id="@+id/fragment"
