@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="4dp"
-        android:background="@color/lightGray">
+        android:background="#070736">
 
         <Button
             android:id="@+id/button_ecran2"
@@ -21,14 +21,15 @@
             android:layout_marginEnd="18dp"
             android:layout_marginRight="18dp"
             android:background="@drawable/ic_image_search"
-            android:padding="2dp" />
+            android:padding="2dp"
+            app:backgroundTint="#28AB68" />
 
         <TextView
             android:id="@+id/textview_nameStation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="item1"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="8dp"
