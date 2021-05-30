@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="?attr/background_color">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#070736  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lobster"
+            android:text="InstaTram"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:translationX="100sp"
+            android:translationY="10sp" />
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_menu_24"
+            android:translationX="339sp"
+            android:translationY="7sp"
+            android:onClick="showPopup"
+            app:backgroundTint="#FFFFFF" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    <Button
+        android:id="@+id/homebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        android:layout_marginBottom="576dp"
+        android:background="@drawable/ic_home"
+        android:onClick="home"
+        app:backgroundTint="?attr/text_color" />
+
+    <Button
+        android:id="@+id/mapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="251dp"
+        android:layout_marginLeft="251dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="573dp"
+        android:background="@drawable/ic_map"
+        android:onClick="map"
+        app:backgroundTint="?attr/text_color" />
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="541dp"
+        android:layout_marginTop="190dp"
+        android:background="?attr/background_color">
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imageStation">
+
+    <TextView
+        android:id="@+id/station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bottomNavigationView"
+
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:shadowColor="#050404"
+        android:text="Station 1"
+        android:textColor="#28AB68"
+        android:textSize="30sp"
+        android:translationX="120dp"
+        android:translationY="90dp" />
+    <ProgressBar
+        android:id="@+id/progress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewimage"
+        android:layout_width="match_parent"
+        android:layout_height="528dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="120dp"
+        android:translationY="70dp" />
+
+</FrameLayout>

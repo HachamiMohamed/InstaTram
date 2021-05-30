@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989946382984",
+    "project_id": "instatram-proj",
+    "storage_bucket": "instatram-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989946382984:android:82124e0848742706402d3d",
+        "android_client_info": {
+          "package_name": "inpt.sud.instatram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989946382984-orhip27di14m705uq4k7an988aa5s7f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIpiEqZ1H8PUsJWm5H0wQ-ikFVeoeizdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989946382984-orhip27di14m705uq4k7an988aa5s7f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

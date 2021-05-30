@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InstaTram</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="night_mode_off">NIGHT MODE OFF</string>
+    <string name="night_mode_on">NIGHT MODE ON</string>
+    <string name="Map">Mapa</string>
+    <string name="Home">Casa</string>
+    <string name="Settings">Ajustes</string>
+    <string name="Dark_Mode">Modo Oscuro</string>
+    <string name="Light_Mode">Modo De Luz</string>
+    <string name="language">Idioma</string>
+    <string name="mode">Modo</string>
+    <string name="change_mode">Cambiar modo</string>
+    <string name="change_language">Cambiar idioma</string>
+</resources>

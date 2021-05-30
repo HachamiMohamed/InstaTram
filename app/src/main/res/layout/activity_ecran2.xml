@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ecranTest"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#070736  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lobster"
+            android:text="InstaTram"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:translationX="100sp"
+            android:translationY="20sp" />
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_baseline_menu_24"
+            android:onClick="showPopup"
+            android:translationX="330sp"
+            android:translationY="16sp"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="59dp"
+            android:layout_height="38dp"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"
+            android:color="@color/white"
+            android:onClick="GoMainActivity"
+            android:textColor="#FFFFFF"
+            android:translationX="13sp"
+            android:translationY="23sp"
+            app:backgroundTint="#FFFFFF" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom"
+
+        app:backgroundTint="#070736" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="#28AB68"
+        app:layout_anchor="@id/bottomAppBar"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="inpt.sud.instatram.imageStation"
+        android:layout_width="match_parent"
+        android:layout_height="534dp"
+        android:translationX="0sp"
+        android:translationY="99sp" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

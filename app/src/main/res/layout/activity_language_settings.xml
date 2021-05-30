@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageSettings">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#070736  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lobster"
+            android:text="InstaTram"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:translationX="100sp"
+            android:translationY="10sp" />
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_menu_24"
+            android:translationX="339sp"
+            android:translationY="7sp"
+            app:backgroundTint="#FFFFFF"
+            android:onClick="showPopup"/>
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

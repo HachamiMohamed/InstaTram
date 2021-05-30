@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/barcelona"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="408dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Welcome to Barcelona"
+        android:textColor="#CFFFFF"
+        android:textSize="31sp"
+        android:translationX="10dp"
+        android:translationY="345dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:text="Insta   Tram"
+        android:textColor="#070736"
+        android:textSize="36sp"
+        android:translationX="115dp"
+        android:translationY="200dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
+        android:layout_weight="1"
+        android:paddingLeft="14dp"
+        android:paddingRight="25dp"
+        android:text="Get  started"
+        android:backgroundTint="#28AB68"
+        android:textSize="18sp"
+        android:translationX="30dp"
+        android:translationY="650dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="73dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:translationX="165dp"
+        android:translationY="150dp"
+        app:srcCompat="@drawable/map" />
+
+
+</RelativeLayout>
