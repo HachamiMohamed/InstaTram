@@ -51,15 +51,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="83dp"
         android:layout_marginLeft="83dp"
-        android:layout_marginTop="107dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="237dp"
         android:layout_marginRight="237dp"
         android:layout_marginBottom="576dp"
         android:background="@drawable/ic_home"
-        android:onClick="home"
-        app:backgroundTint="?attr/text_color" 
         android:backgroundTint="#28AB68"
-        app:backgroundTint="#28AB68"/>
+        android:onClick="home"
+        app:backgroundTint="#28AB68" />
 
     <Button
         android:id="@+id/mapbutton"
@@ -67,22 +66,20 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="251dp"
         android:layout_marginLeft="251dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="75dp"
         android:layout_marginRight="75dp"
         android:layout_marginBottom="573dp"
         android:background="@drawable/ic_map"
-        android:onClick="map"
-        app:backgroundTint="?attr/text_color"
         android:backgroundTint="#28AB68"
-        app:backgroundTint="#28AB68"/>
+        android:onClick="map"
+        app:backgroundTint="#28AB68" />
 
     <FrameLayout
         android:id="@+id/fragment"
         android:layout_width="match_parent"
-        android:layout_height="541dp"
-        android:layout_marginTop="190dp"
-        android:background="?attr/background_color">
-    </FrameLayout>
+        android:layout_height="560dp"
+        android:layout_marginTop="150dp"
+        android:background="?attr/background_color"></FrameLayout>
 
 </RelativeLayout>
